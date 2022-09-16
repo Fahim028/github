@@ -24,7 +24,7 @@ namespace MyWinApp
 
         private void ShowButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " +  nameTextBox.Text+ " hi " +  ItemComboBox.Text);
+            MessageBox.Show("Hello " +  nameTextBox.Text+ " " +  ItemComboBox.Text);
         }
     }
 }

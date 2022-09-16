@@ -10,11 +10,24 @@ using System.Windows.Forms;
 
 namespace MyWinApp
 {
-    public partial class Data_type : Form
+    public partial class DataType : Form
     {
-        public Data_type()
+        public DataType()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            int firstnumber;
+              firstnumber = 10;
+
+            int secondnumber = firstnumber  ;
+
+            double thirdnumber = secondnumber;
+
+            MessageBox.Show(" firstnumber :" + firstnumber + " secondnumber :" + secondnumber + " thirdnumber :" + thirdnumber);
+
         }
     }
 }
