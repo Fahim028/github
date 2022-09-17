@@ -24,7 +24,9 @@ namespace MyWinApp
 
             int secondnumber = firstnumber  ;
 
-            double thirdnumber = secondnumber;
+            double thirdnumber = 10.10;
+            int fourthnumber = Convert.ToInt32(thirdnumber) ;
+            string number = fourthnumber.ToString();
 
             MessageBox.Show(" firstnumber :" + firstnumber + " secondnumber :" + secondnumber + " thirdnumber :" + thirdnumber);
 

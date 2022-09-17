@@ -16,8 +16,11 @@ namespace MyWinApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           // Application.Run(new HomeForm());
-            Application.Run(new DataType());
+            // Application.Run(new HomeForm());
+            //Application.Run(new DataType());
+            //Application.Run(new HelloWorld());
+            //Application.Run(new ArrayForm());
+            Application.Run(new ListForm());
         }
     }
 }
